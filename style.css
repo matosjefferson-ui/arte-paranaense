@@ -1,13 +1,88 @@
-Body{
-    background-color:blue (209, 209, 236);
+body {
+    background-color:blue;
+    color:aquamarine;
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
-header{
-    background-color: azure;
+header {
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color: rgb(84, 250, 6);
+
+h1 {
+    font-size: 36px;
 }
-section{
-    background-color: brown;
+
+h2 {
+    color:red;
 }
-    
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    background-color:green;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color:greenyellow;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color:white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color:bisque;
+    margin-top: 8px;
+}
+
+card {
+    background-color:blueviolet;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #6b2d5c;
+    border-radius: 10px;
+}
+
+card h3 {
+    margin-top: 0;
+}
+footer {
+    background-color: #222222;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
