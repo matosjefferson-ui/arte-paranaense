@@ -6,7 +6,7 @@ body {
 }
 header {
     background-color:black;
-    color:white;
+    color:rgb(202, 47, 194);
     text-align: center;
     padding: 30px;
 }
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color:white;
+    color:rgb(29, 51, 122);
     text-decoration: none;
     background-color:green;
     padding: 10px 15px;
@@ -47,7 +47,7 @@ main {
 }
 
 section {
-    background-color:white;
+    background-color:rgb(236, 24, 24);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -81,7 +81,7 @@ card h3 {
 }
 footer {
     background-color: #222222;
-    color:white;
+    color:rgb(21, 192, 164);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
