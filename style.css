@@ -1,5 +1,10 @@
+:root{
+    --cor-fundo: #000000;
+    --cor-texto
+}
+
 body {
-    background-color:rgb(0, 0, 0);
+    background-color: var(--cor-fundo);
     color:aquamarine;
     font-family: Arial, sans-serif;
     margin: 0;
