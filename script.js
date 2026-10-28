@@ -1,4 +1,6 @@
- curtiu = false;
+ const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir.forEach(function(botaoCurtir){
+ let curtiu = false;
     botaoCurtir.addEventListener("click", curtir);
 function curtir(){
     const contador = botaoCurtir.querySelector("span");
@@ -7,9 +9,15 @@ function curtir(){
         curtiu = true;}
         else{
             contador.textContent--;
-            curtiu = false;const botoesCurtir = document.querySelectorAll(".curtir");
-botoesCurtir.forEach(function(botaoCurtir){
-    let
+            curtiu = false;
+    
     }
 }
 });
+
+
+const btnTema = documentSelector(".btm-tema");
+btmTema.addEventListener("click" ,mudarTema);
+function mudarTema(){
+    document.body.classList.toggle("tema-escuro");
+}
